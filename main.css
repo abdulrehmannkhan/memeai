@@ -83,9 +83,9 @@ h3 {
     display: flex;
     align-items: center;
     gap: 1vw;
-    border: 1px solid #46EBFE;
+    border: 1px solid #5271ff;
     background: rgba(255, 255, 255, 0.00);
-    box-shadow: 0px 0px 1vw .2vw rgba(55, 156, 255, 0.99) inset, 0px .4vw 10vw 0px #4ED0F9;
+    box-shadow: 0px 0px 1vw 0.2vw rgb(81 111 250) inset, 0px 0.4vw 10vw 0px #4ED0F9;
 }
 
 .btn:hover {
@@ -617,7 +617,7 @@ p{
     flex-direction: column;
     align-items: center;
     border-radius: 2vw;
-    background: linear-gradient(180deg, #69D4EA 0%, rgba(1, 1, 1, 0.00) 100%);
+    background: linear-gradient(180deg, #5271ff 0%, rgba(1, 1, 1, 0.00) 100%);
 }
 .join h3{
     margin-bottom: 1vw;
