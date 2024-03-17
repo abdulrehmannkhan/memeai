@@ -66,8 +66,31 @@ section.join {
 .advertisee .coll:nth-child(2) {
     margin-right: 20px;
 }
+.header .navbar .left-side-menu {
+    width: 20%;
+}
+
+.center-menu {
+    width: 80%;
+}
 
 @media (max-width: 500px) {
+    .header .navbar .left-side-menu {
+        width: 30%;
+    }
+    
+    .center-menu {
+        width: 80%;
+        padding-bottom: 30px !important;
+    }
+    
+    .center-menu.active {
+        margin-top: 36px;
+    }
+    
+    .center-menu a li{
+        font-size: 14px !IMPORTANT;
+    }
     .hero-section .right .scroll {
         visibility: hidden;
     }
